@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/uyu423/resume.git"
   },
+  "scripts": {
+    "deploy": "gh-pages -d ./"
+  },
   "author": "Yu Yongwoo <uyu423@gmail.com>",
   "license": "UNLICENSED",
   "dependencies": {
