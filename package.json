@@ -1,0 +1,15 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Please Get Me",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uyu423/resume.git"
+  },
+  "author": "Yu Yongwoo <uyu423@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
