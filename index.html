@@ -2,10 +2,783 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Hello World</title>
+    <meta name="viewport" content="user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,width=device-width">
+
+    <title>이게 바로 요우의 이력서입니다</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.bundle.min.js" integrity="sha384-3ziFidFTgxJXHMDttyPJKDuTlmxJlwbSkojudK/CkRqKDOmeSbN6KLrGdrBQnT2n" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./showMeTheMoney.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+  </script>
   </head>
   <body>
-    <h1 class="hello">Hello World ?!</h1>
+    <div class="container resume">
+      <!-- Profile Start -->
+      <div class="row mt-5">
+        <div class="col-md-3 col-sm-12 pb-3 text-md-right text-center">
+          <img class="img-fluid rounded profile-img" src="./static/image/profile_resize.png" alt="Profile">
+        </div>
+        <div class="col-md-9 col-sm-12">
+          <div class="row">
+            <div class="col text-center text-md-left">
+              <h1 class="blue">유 용 우</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col pt-3">
+              <div class="row pb-2">
+                <div class="col-1 text-right">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                </div>
+                <div class="col-auto">
+                  <a href="mailto:uyu423@gmail.com" target="_blank">uyu423@gmail.com</a>
+                </div>
+              </div>
+              <div class="row pb-2">
+                <div class="col-1 text-right">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                </div>
+                <div class="col-auto">
+                  <span class="badge badge-light">Please contact me by email</span>
+                </div>
+              </div>
+              <div class="row pb-2">
+                <div class="col-1 text-right">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </div>
+                <div class="col-auto">
+                  <a href="https://github.com/uyu423" target="_blank">https://github.com/uyu423</a>
+                </div>
+              </div>
+              <div class="row pb-2">
+                <div class="col-1 text-right">
+                  <i class="fa fa-rss" aria-hidden="true"></i>
+                </div>
+                <div class="col-auto">
+                  <a href="http://LuckyYowu.tistory.com" target="_blank">http://LuckyYowu.tistory.com</a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-1 text-right">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </div>
+                <div class="col-auto">
+                  <a href="https://facebook.com/luckyyowu" target="_blank">@LuckyYowu</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Profile End -->
+
+      <!-- Introduce Start -->
+      <div class="row pt-5">
+        <div class="col-12 col-md-3">
+          <h2 class="blue">INTRODUCE</h2>
+        </div>
+        <div class="col-12 col-md-9">
+          <p>웹 백엔드 개발과 스타트업 개발자로서의 다양한 경험이 있습니다. Node.js, PHP, MySQL, AWS, Git, Linux 등을 사용하여 프로덕션 서비스를 설계, 개발, 운영한 경험이 있습니다.확장성과 유지 보수성이 높은 백엔드 아키텍처와 패턴을 위해 언제나 고민하고 있습니다.</p>
+          <p>오픈소스 프로젝트에 관심이 많고, 다양한 방법으로 기여를 하려고 노력하고 있습니다. 이외에도 개인 프로젝트나 개발 커뮤니티 활동 등을 통해 다양한 개발 경험을 즐기고 있습니다. 평소 개발 경험을 공유하거나 기록하는 것을 좋아하여 학부생 시절부터 시작한 개발 블로그에는 350여 개의 기술 포스트를 작성했습니다. 언제나 백엔드 개발의 정점을 찍고 싶다고 생각하고 있으며 다양한 기술을 학습하거나 사용, 문제 해결을 통해 개발자로서 발전하기 위해 노력하고 있습니다.</p>
+        </div>
+      </div>
+      <!-- Introduce End -->
+
+      <!-- Skills Start -->
+      <div class="row pt-5">
+        <div class="col">
+          <div class="row pb-3">
+            <div class="col">
+              <h2>
+                <span class="blue">
+                  SKILLS
+                </span>
+                <small data-toggle="tooltip" title="1: 기초 수준, 2: 취미 개발 수준, 3: Production 개발 가능 수준">
+                  <i class="fa fa-question-circle" aria-hidden="true"></i>
+                </small>
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-3 text-md-right">
+              <h4 class="gray">Back-end</h4>
+            </div>
+            <div class="col-12 col-md-9">
+              <div class="row">
+                <div class="col">
+                  <ul>
+                    <li>
+                      <span class="badge badge-pill badge-primary">3</span>
+                      Node.js
+                    </li>
+                    <li>
+                      <span class="badge badge-pill badge-primary">3</span>
+                      AWS
+                    </li>
+                    <li>
+                      <span class="badge badge-pill badge-secondary">2</span>
+                      PHP
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>
+                      <span class="badge badge-pill badge-primary">3</span>
+                      Express.js
+                    </li>
+                    <li>
+                      <span class="badge badge-pill badge-primary">3</span>
+                      nginx
+                    </li>
+                    <li>
+                      <span class="badge badge-pill badge-light">1</span>
+                      Java
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>
+                      <span class="badge badge-pill badge-secondary">2</span>
+                      Socket.io
+                    </li>
+                    <li>
+                      <span class="badge badge-pill badge-secondary">2</span>
+                      Apache
+                    </li>
+                    <li>
+                      <span class="badge badge-pill badge-light">1</span>
+                      Python
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <div class="row">
+            <div class="col-12 col-md-3 text-md-right">
+              <h4 class="gray">Database</h4>
+            </div>
+            <div class="col-12 col-md-9">
+              <div class="row">
+                <div class="col">
+                  <ul>
+                    <li>
+                      <span class="badge badge-pill badge-primary">3</span>
+                      MySQL
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>
+                      <span class="badge badge-pill badge-secondary">2</span>
+                      MongoDB
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>
+                      <span class="badge badge-pill badge-light">1</span>
+                      Oracle
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <div class="row">
+            <div class="col-12 col-md-3 text-md-right">
+              <h4 class="gray">Front-end</h4>
+            </div>
+            <div class="col-12 col-md-9">
+              <div class="row">
+                <div class="col">
+                  <ul>
+                    <li>
+                      <span class="badge badge-pill badge-secondary">2</span>
+                      React.js
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>
+                      <span class="badge badge-pill badge-secondary">2</span>
+                      javascript
+                    </li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>
+                      <span class="badge badge-pill badge-secondary">2</span>
+                      HTML/CSS
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <div class="row">
+            <div class="col-12 col-md-3 text-md-right">
+              <h4 class="gray">Etc</h4>
+            </div>
+            <div class="col-12 col-md-9">
+              <div class="row">
+                <div class="col">
+                  <ul>
+                    <li>Ubuntu</li>
+                    <li>Atom</li>
+                    <li>Git / Github</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>Vim</li>
+                    <li>JIRA</li>
+                    <li>Agile</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>Information Security</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- Skills End -->
+
+      <!-- Open Source Start -->
+      <div class="row pt-5">
+        <div class="col">
+          <div class="row pb-3">
+            <div class="col">
+              <h2 class="blue">OPEN SOURCE</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">node-escpos</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <ul>
+                    <li>Node.js용 ESC/POS 프린터 드라이버</li>
+                    <li>Collaborator</li>
+                    <li>Node.js 기반</li>
+                    <li>기능 추가 및 Issue Resolve 기여</li>
+                    <li><a href="https://github.com/song940/node-escpos" target="_blank">https://github.com/song940/node-escpos</a></li>
+                    <li>Github Star: 151</li>
+                  </ul>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">yop</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <ul>
+                    <li>9XD 커뮤니티 개발자 1년 회고록 웹 프로젝트</li>
+                    <li>Contributor</li>
+                    <li>실질적인 개발 참여보다는 Bug Reporting과 약간의 Pull Request</li>
+                    <li><a href="https://github.com/9XDM/YOP" target="_blank">https://github.com/9XDM/YOP</a></li>
+                    <li>Github Star: 29</li>
+                  </ul>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">kanboard</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <ul>
+                    <li>칸반 프로젝트 Management Board Tool</li>
+                    <li>Contributor</li>
+                    <li>PHP 기반</li>
+                    <li>한국어 지원 패치 최초 제공</li>
+                    <li><a href="https://github.com/kanboard/kanboard" target="_blank">https://github.com/kanboard/kanboard</a></li>
+                    <li>Github Star: 3.1K</li>
+                  </ul>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">OSS 개발자 커뮤니티</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <ul>
+                    <li>2013년 성균관대학교 개발자 캠프 참여</li>
+                    <li>2017년 국민대학교 개발자 캠프 특강 발표</li>
+                    <li>2017년 Git & Github 강의 조교</li>
+                  </ul>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">9XD 개발자 커뮤니티</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <ul>
+                    <li>2016년 9X년생 개발자 특강 참여</li>
+                    <li>2017년 9XD 1회 해커톤 참여</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Open Source End -->
+
+      <!-- Presentation Start -->
+      <div class="row pt-5">
+        <div class="col">
+          <div class="row pb-3">
+            <div class="col">
+              <h2 class="blue">PRESENTATION</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <div class="row">
+                <div class="col-md-3 text-md-right">
+                  <h4 class="gray">2017. 10</h4>
+                </div>
+                <div class="col-md-9">
+                  <h4>나도 내가 뭘 말해야되는지 잘 모르겠어</h4>
+                  <i class="gray">가톨릭대학교 컴퓨터정보공학부 졸업생 특강</i>
+                  <ul class="pt-3">
+                    <li>부제: 본격 스타트업 환상 부수기</li>
+                    <li>발표자료: <a href="https://goo.gl/V36omP" target="_blank">https://goo.gl/V36omP</a> <small>(Slideshare, 5,000 View)</small></li>
+                  </ul>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 text-md-right">
+                  <h4 class="gray">2017. 01</h4>
+                </div>
+                <div class="col-md-9">
+                  <h4>개발자가 되기전 누군가 알려주면 좋았을 모든 것들</h4>
+                  <i class="gray">OSS 개발자 커뮤니티 & 국민대학교 겨울 캠프</i>
+                  <ul class="pt-3">
+                    <li>중·고등학교 (예비) 개발자 학생 대상 발표</li>
+                    <li>발표자료: <a href="https://goo.gl/p2Tbuo" target="_blank">https://goo.gl/p2Tbuo</a> <small>(Slideshare, 1,200 View)</small></li>
+                    <li>행사링크: <a href="https://onoffmix.com/event/86250" target="_blank">https://onoffmix.com/event/86250</a> </li>
+                  </ul>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 text-md-right">
+                  <h4 class="gray">2015. 12</h4>
+                </div>
+                <div class="col-md-9">
+                  <h4>SSH Brute Force 실제 피해 사례 & 악성코드 분석</h4>
+                  <i class="gray">가톨릭대학교 컴퓨터정보공학부 IT Forum</i>
+                  <ul class="pt-3">
+                    <li>발표자료: <a href="https://goo.gl/VnzRld" target="_blank">https://goo.gl/VnzR1d</a> <small>(Slideshare, 200 View)</small></li>
+                  </ul>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 text-md-right">
+                  <h4 class="gray">2013. 12</h4>
+                </div>
+                <div class="col-md-9">
+                  <h4>고급언어 컴파일과 프로그램의 로딩</h4>
+                  <i class="gray">가톨릭대학교 컴퓨터정보공학부 IT Forum</i>
+                  <ul class="pt-3">
+                    <li>발표자료: <a href="https://goo.gl/8ULnBb" target="_blank">https://goo.gl/8ULnBb</a> <small>(Prezi, 1,700 View)</small></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Presentation End -->
+
+      <!-- Experience Start -->
+      <div class="row pt-5">
+        <div class="col">
+          <div class="row pb-3">
+            <div class="col">
+              <h2 class="blue">EXPERIENCE</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">2016. 10 ~ 2017. 11 <small><span class="badge badge-info">1년 2개월</span> </small></h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <h4>Plating</h4>
+                  <i class="gray">백엔드 개발자</i>
+                  <ul class="pt-3">
+                    <li>요식업 / 푸드테크 스타트업 <small>(15~50명, 개발팀 2~6명)</small></li>
+                    <li>커머스, 물류 백엔드, 인프라 개발 등</li>
+                    <li>Development Project Management</li>
+                  </ul>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">2015. 07 ~ 2016. 02 <small><span class="badge badge-info">8개월</span> </small></h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <h4>Ecube Labs</h4>
+                  <i class="gray">서버 개발자</i>
+                  <ul class="pt-3">
+                    <li>IoT 하드웨어 스타트업 <small>(15~25, 개발팀 8~10명)</small></li>
+                    <li>'도시 쓰레기량 관제 소프트웨어' 백엔드 개발</li>
+                    <li>인프라 엔지니어링과 보안 담당</li>
+                    <li>AWS, Agile 등 연구 / 도입</li>
+                  </ul>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">2014. 09 ~ 2015. 03 <small><span class="badge badge-info">7개월</span> </small></h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <h4>KYNY</h4>
+                  <i class="gray">웹 개발자</i>
+                  <ul class="pt-3">
+                    <li>가톨릭대학교 재학생 스타트업 <small>(4~6명, 개발자 4명)</small></li>
+                    <li>'스포츠 토토 승률 계산 서비스' 웹 개발</li>
+                    <li>사업 방향, 서비스 기획 참여 및 개발 주도</li>
+                    <li>CAREER 보다는 EXPERIENCE</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Experience End -->
+
+      <!-- Project Start -->
+      <div class="row pt-5">
+        <div class="col">
+          <div class="row pb-3">
+            <div class="col">
+              <h2 class="blue">PROJECTS</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">2016. 10 ~ 2017. 11</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <h4>플레이팅 백엔드 개발</h4>
+                  <i class="gray">Plating</i>
+                  <ul class="pt-3">
+                    <li>
+                      <strong>API Server v1 / v2</strong>
+                      <ul>
+                        <li>플레이팅 서비스에 사용되는 API 서버 개발</li>
+                        <li>기존 PHP로 작성된 v1 API를 Node.js와 Express.js로 이전 및 기능 추가, 코드 개선</li>
+                        <li>API v2 부터 TDD, ORM 등 도입</li>
+                        <li>AWS EC2, pm2, nginx를 서버 인프라로 사용</li>
+                        <li>AWS RDS의 MySQL를 데이터베이스로 사용</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <strong>Socket Server</strong>
+                      <ul>
+                        <li>주문 관련 백오피스에 사용되는 소켓 서버 개발</li>
+                        <li>Node.js와 Socket.io, Express.js를 사용하여 개발</li>
+                        <li>AWS EC2 내의 MongoDB를 데이터베이스로 사용</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <strong>Etc</strong>
+                      <ul>
+                        <li>Cron 역할을 하는 백엔드 프로젝트 개발</li>
+                        <li>Telegram Bot 등 마케팅 지표를 팀에게 능동적으로 알려줄 수 있는 서비스를 개발</li>
+                        <li>HTTP 통신으로 작동하는 가격 계산 서버 개발</li>
+                        <li>AWS S3, CloudFront 등을 사용하여 CDN 구축 </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">2017. 08 ~ 2017. 10</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <h4>ESC/POS 프린터 네이티브 프로그램 개발</h4>
+                  <i class="gray">Plating</i>
+                  <ul class="pt-3">
+                    <li>플레이팅 자체 주문 확인지와 영수증 출력용 프로그램</li>
+                    <li>Node.js와 Electron.js, node-escpos를 사용하여 개발</li>
+                    <li>Socket을 사용하여 웹 → 서버 → POS 프린터 통신 구현</li>
+                    <li>플레이팅 각 영업점 별로 배포하여 사용 </li>
+                  </ul>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">2017. 03 ~ 2017. 05</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <h4>새벽 배송 프로젝트</h4>
+                  <i class="gray">Plating</i>
+                  <ul class="pt-3">
+                    <li>새로운 주문 형태인 새벽 배송 시스템 개발</li>
+                    <li>기존 API 서버 관리 미흡으로 기능 추가 불가능 상황 도래</li>
+                    <li>새벽 주문 전용 Node.js API 서버를 구축하고 기능 개발</li>
+                    <li>API v2 프로젝트의 코드 베이스가 됨. </li>
+                    <li>개발 시 확장성과 모듈화 고려의 중요성을 깨닫게 됨</li>
+                  </ul>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">2016. 10 ~ 2017. 11</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <h4>백오피스 웹 프론트엔드 개발</h4>
+                  <i class="gray">Plating</i>
+                  <ul class="pt-3">
+                    <li>개발 인력 부족으로 간간히 프론트엔드 개발에 투입</li>
+                    <li>React.js 등을 사용하여 내부 백오피스 툴 개발</li>
+                    <li>ERP, 라이더 앱, 서버 모니터링 등 개발</li>
+                    <li>Socket Client 통신, 비동기 HTTP 통신 등을 사용</li>
+                  </ul>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">2015. 07 ~ 2016. 02</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <h4>클린시티네트웍스 백엔드 개발</h4>
+                  <i class="gray">Ecube Labs</i>
+                  <ul class="pt-3">
+                    <li>도시 쓰레기량 관제 모니터링 툴 개발</li>
+                    <li>Beta는 PHP, v1 은 Node.js, Express.js로 개발</li>
+                    <li>v1 개발 시 처음으로 AWS를 도입함</li>
+                    <li>OOM, 보안 위협, 최적화 등 다양한 서버 문제를 경험</li>
+                  </ul>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">2014. 09 ~ 2015. 03</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <h4>스포츠 토토 승률 계산 서비스 개발</h4>
+                  <i class="gray">KYNY</i>
+                  <ul class="pt-3">
+                    <li>통계 알고리즘을 사용한 해외 축구 스포츠 토토 승률 예상 서비스</li>
+                    <li>Java Servlet을 사용하여 통계 알고리즘을 코드화</li>
+                    <li>Linux와 Apache 등을 사용하여 서버 인프라 구축</li>
+                    <li>Wordpress, PHP, MySQL 등을 사용하여 서비스 개발</li>
+                    <li>사업 멘토링 등을 통해 BM 분석, 개발 명세, 설계, 다른 직군과의 협업 등을 경험</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project End -->
+
+      <!-- Education Start -->
+      <div class="row pt-5">
+        <div class="col">
+          <div class="row pb-3">
+            <div class="col">
+              <h2 class="blue">EDUCATION</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">2010. 03 ~ 2016. 08</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <h4>가톨릭대학교 졸업</h4>
+                  <i class="gray">컴퓨터공학 / 정보시스템공학 복수 전공</i>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">2007. 03 ~ 2010. 02</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <h4>경일고등학교 졸업</h4>
+                  <i class="gray">경상북도 안동시</i>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Education End -->
+
+      <!-- Etc Start -->
+      <div class="row pt-5">
+        <div class="col">
+          <div class="row pb-3">
+            <div class="col">
+              <h2 class="blue">ETC</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">2015. 05</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <h4>가톨릭대학교 캡스톤디자인경연대회 최우수상</h4>
+                  <i class="gray">Tizen 기반의 삼성 스마트 TV와 안드로이드 OS 간의 Push Notification 연동 프로젝트</i>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">2013. 07 ~ 2013. 08</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <h4>몽골 울란바타르 대학 IT 교육 봉사</h4>
+                  <i class="gray">월드프렌즈 IT 봉사단 (한국정보화진흥원)</i>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">2011. 07 ~ 2013. 04</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <h4>육군 병장 만기 전역</h4>
+                  <i class="gray">통신병</i>
+                </div>
+              </div>
+              <hr />
+
+              <div class="row">
+                <div class="col-md-3 col-12 text-md-right">
+                  <h4 class="gray">2008. 05</h4>
+                </div>
+                <div class="col-md-9 col-12">
+                  <h4>학생 정보올림피아드</h4>
+                  <i class="gray">경시부문 (안동시 예선 은상, 경상북도 예선 장려)</i>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Etc End -->
+
+      <!-- Toolbox Start -->
+      <div class="row pl-5 pr-5 pt-5 pb-0">
+        <div class="col-md-4 pt-3">
+          <a href="./static/pdf/2018-yowu-resume.pdf" class="btn btn-info btn-block" role="button" aria-pressed="true">
+            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+            &nbsp;PDF 다운받기
+          </a>
+        </div>
+        <div class="col-md-4 pt-3">
+          <a href="mailto:uyu423@gmail.com" target="_blank" class="btn btn-secondary btn-block" role="button" aria-pressed="true">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            &nbsp;이메일로 찔러보기
+          </a>
+        </div>
+        <div class="col-md-4 pt-3">
+          <button onClick="alert('뇌내망상 코너는 준비 중입니다.')" class="btn btn-dark btn-block" role="button" aria-pressed="true">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+            &nbsp;뇌내망상 살펴보기
+          </button>
+        </div>
+      </div>
+      <!-- Toolbox End -->
+
+      <!-- Footer Start -->
+      <div class="row">
+        <div class="col footer-cover">
+          <div class="footer text-center">
+            <small>CSS by <a href="https://getbootstrap.com/" target="_blank">Bootstrap 4</a>. Thanks for <a href="https://blog.outsider.ne.kr/1234" target="_blank">Outsider</a></small>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+    </div>
   </body>
 </html>
